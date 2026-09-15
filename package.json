@@ -1,0 +1,18 @@
+{
+  "name": "an-store",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "node scripts/dev.js",
+    "setup": "npm --prefix giao_dien install && npm --prefix database run init",
+    "build": "npm --prefix giao_dien run build",
+    "test": "npm --prefix giao_dien test",
+    "api": "npm --prefix api run dev",
+    "frontend": "npm --prefix giao_dien run dev"
+  },
+  "engines": {
+    "node": ">=22.13.0"
+  }
+}
+

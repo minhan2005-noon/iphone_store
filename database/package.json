@@ -1,0 +1,11 @@
+{
+  "name": "an-store-database",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "init": "node scripts/init.js",
+    "reset": "node scripts/reset.js",
+    "update:images": "node scripts/update-images.js"
+  }
+}
